@@ -1,0 +1,10 @@
+.property-listing{
+ background-color: rgba(232, 232, 232, 0.665);
+ border-radius: 12px;
+ display: flex;
+ /* flex-direction: row; */
+ flex-wrap: wrap;
+ align-items:center;
+ justify-content: center;
+ gap: 2rem;
+}

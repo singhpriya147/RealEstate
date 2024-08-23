@@ -1,0 +1,17 @@
+.feature-style {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 10px;
+  background-color: hsla(0, 24%, 96%, 0.48);
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 60px;
+ width: 60px;
+}
+
+.feature-icon {
+  margin-right: 3px; /* Space between icon and text */
+  font-size: 1.2em; /* Adjust the size of the icon */
+  color: #333; /* Change the color of the icon */
+}

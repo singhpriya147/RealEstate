@@ -1,0 +1,277 @@
+{
+      "rental_prices": {
+        "shared_occupancy": "N",
+        "per_week": 314,
+        "accurate": "per_month",
+        "per_month": 1360
+      },
+      "country_code": "gb", 
+      "num_floors": "0",
+      "view_count_30day": 0,
+      "document": [
+        "https://www.chancellors.co.uk/properties/r/05420016?utm_source=Marketing&utm_medium=Web&utm_campaign=Lettings"
+      ],
+      "image_150_113_url": "https://lid.zoocdn.com/150/113/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "listing_status": "rent",
+      "num_bedrooms": "2",
+      "location_is_approximate": 0,
+      "image_50_38_url": "https://lid.zoocdn.com/50/38/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "latitude": 51.762062,
+      "view_count": 0,
+      "furnished_state": "furnished",
+      "agent_address": "107 London Road, Headington",
+      "branch_id": "108862",
+      "category": "Residential",
+      "property_type": "Flat",
+      "letting_fees": "<h3 class=\"listing-desc-header top\"><strong><br></strong></h3><br><u>Summary of fees charged for lettings</u><br><br>Tenant administration fees are as set out in the Application form. For all tenancies exchanged prior to 1st June 2019 these fees will remain in place until 1st June 2020. Please refer to the application form signed prior to 1st June 2019 for the detail of these fees. All tenancies exchanged from 1st June 2019 will be in line with tenant fee ban legislation and the charges detailed below.<br><br><b>Once your offer on a property is agreed, your application is subject to:</b><br><br><ul> <li>Commitment To Rent Agreement <ul> <li> The Tenant will be liable to pay an amount equal to 1 weeks rent in the event that the tenancy fails to progress for due to an event occurring as set out in the Application Form which details the terms of the Commitment To Rent Agreement </li> </ul> </li> <li>Refundable Holding deposit <ul> <li> A Landlord may require a payment of up to 1 weeks rent, instead of the Commitment to Rent Agreement terms. Cgeal will not be party to any payment arrangements or terms associated with the payment. Tenants will deal directly with the Landlord on any payment arrangements and should not make payment to any cgeal named bank account for these monies. Tenants should ensure they are wholly satisfied that the Refundable Holding Deposit arrangements are in line with current regulations before making any payment </li> </ul> </li> </ul><br><br><b>Fees when you vacate</b><br><br><ul> <li>Early termination (where agreed with the landlord) <ul> <li>The outstanding rent payable to the landlord under the tenancy;</li> <li>£50.00 inc. VAT for the reasonable costs of us carrying out the Early Termination;</li> <li> £19.98 inc. VAT towards the landlord's administration costs of registering the deposit with the TDS (Tenancy Deposit Scheme) should the landlord be registered with this scheme. </li> </ul> </li> <li>Administration fees for tenancy swap <ul> <li>£50.00 inc. VAT on each occurrence</li> </ul> </li> </ul><br><br><b>Tenant Protection</b><br><br>The Chancellors Group of Estate Agents Ltd ('cgeal') is a member of the Tenancy Deposit Scheme - an approved scheme. Chancellors is proud to be a member of Property Redress Scheme. Cgeal is a member of the Propertymark Client Money Protection Scheme.<br><h3 class=\"listing-desc-header top\"><strong><br></strong></h3>",
+      "images": [
+        {
+          "original": "https://lc.zoocdn.com/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/9148df9139acb5a566606f4866159b2b3306c67e.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/604d80db446fedfdc262ab99deef17533abb88dc.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "caption": "Example Development Image",
+          "50x38": "https://lid.zoocdn.com/50/38/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d999b67f7220f66a166d1f778756b5cd4551b951.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "caption": "External View Of Property",
+          "50x38": "https://lid.zoocdn.com/50/38/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg"
+        }
+      ],
+      "longitude": -1.184606,
+      "listing_date": "2020-09-11 16:31:00",
+      "thumbnail_url": "https://lid.zoocdn.com/80/60/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "description": "<p class=\"top\"><b>Property Description</b><br><br>Recent Build two bedroom apartment with parking in the exclusive development of Thornhill Park. £0 deposit option is also available. Ideal for the London commuter &amp; local hospitals.<br><br><b>Property Details</b><br><br>The landlord offers a £0 deposit option when renting this property. Please note it is unconnected to Chancellors' Deposit Replacement Scheme and has different conditions with it, notably an additional cost to the tenant. All information relating to this Landlord option will be provided by them upon application and should not be confused with the Chancellors scheme provided as an option with other properties marketed through us which does not come with a tenant cost.<br><b>Located on the old Neilson site, this collection of 134 high end apartments comprise of both 1 and 2 bedroom properties. Prices start from £960. Finished to a contemporary style, each property comes with 1 parking space and there is an option for additional parking if requested. Located in Headington and next to the Thornhill Park and Ride, these apartments are ideal for the London commuter and the local hospital employee. Available now, the apartments come with all white goods, fitted blinds and telephone intercom. If you would prefer to not pay a deposit there is a £0 deposit scheme available. The building is compatible with sky TV and BT internet. You will also have access a bike store and a communal courtyard garden. Each block has a lift.<br>1 months free gym membership at Anytime Fitness is Headington.<br>12 min bus ride to John Radcliffe Hospital<br>20 min bus ride to the Centre of Oxford<br>Please note:</b><br><br>Photos are example of the development<br>Video is an example of a 2 bed<br><b>Video Viewings:</b><br>If proceeding without a physical viewing please note that you must make all necessary additional investigations to satisfy yourself that all requirements you have of the property will be met. Video content and other marketing materials shown are believed to fairly represent the property at the time they were created.<br>Property reference 05420016</p>",
+      "agent_postcode": "OX3 9HZ",
+      "post_town": "Oxford",
+      "details_url": "https://www.zoopla.co.uk/to-rent/details/56210436?utm_source=v1:5bWFDybfWx7C7AGpeagt7mP3PgcqjuqJ&utm_medium=api",
+      "short_description": "Recent Build two bedroom apartment with parking in the exclusive development of Thornhill Park. £0 deposit option is also available. Ideal for the London commuter &amp; local hospitals.",
+      "outcode": "OX3",
+      "other_image": [
+        {
+          "url": "https://lid.zoocdn.com/645/430/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+          "description": "Example Development Image"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg",
+          "description": "External View Of Property"
+        }
+      ],
+      "image_645_430_url": "https://lid.zoocdn.com/645/430/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "title": "2 bed flat to rent",
+      "county": "Oxfordshire",
+      "price": "314",
+      "is_premium_listing": 0,
+      "available_from_display": "Available from 23rd Apr 2022",
+      "listing_id": "56210436",
+      "image_caption": "Example Development Image",
+      "bullet": [
+        "Entrance Hall",
+        "Two Bedroom",
+        "Bathroom",
+        "Utility Cupboard with Washer/Dryer",
+        "Open Plan Living/Dining/Kitchen",
+        "Dishwasher in Kitchen",
+        "Parking",
+        "Bike Storage",
+        "Entrance phone"
+      ],
+      "image_80_60_url": "https://lid.zoocdn.com/80/60/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "property_number": "Flat 7 Thornhill Court",
+      "status": "to_rent",
+      "virtual_tour": ["https://www.youtube.com/embed/EmgpID519Ck"],
+      "agent_name": "Chancellors - Headington New Homes Lettings",
+      "num_recepts": "1",
+      "property_badge": "Just added",
+      "country": "England",
+      "company_id": "688",
+      "first_published_date": "2022-02-16 13:11:39",
+      "displayable_address": "Headington, Oxford OX3",
+      "floor_plan": [
+        "https://lc.zoocdn.com/54a7a02df319ee4ab6aaf6d41c2ed41c6043f0a9.png"
+      ],
+      "street_name": "Headington",
+      "num_bathrooms": "1",
+      "incode": "9GH",
+      "epc_graph": [
+        "https://lc.zoocdn.com/d8df3432534de057ba5da0ade5e2458796603917.jpg"
+      ],
+      "featured_type": "S",
+      "agent_logo": "https://st.zoocdn.com/zoopla_static_agent_logo_(487497).png",
+      "price_change": [
+        {
+          "direction": "",
+          "date": "2022-02-16 13:10:24",
+          "percent": "0%",
+          "price": "314"
+        }
+      ],
+      "agent_phone": "01865 680067",
+      "group_id": "22",
+      "image_354_255_url": "https://lid.zoocdn.com/354/255/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "image_url": "https://lid.zoocdn.com/645/430/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+      "last_published_date": "2022-02-16 14:10:34",
+      "original_image": [
+        "https://lc.zoocdn.com/d1f47bf8f598dbe6508e0f6009dfb4837422ca8b.jpg",
+        "https://lc.zoocdn.com/9148df9139acb5a566606f4866159b2b3306c67e.jpg",
+        "https://lc.zoocdn.com/604d80db446fedfdc262ab99deef17533abb88dc.jpg",
+        "https://lc.zoocdn.com/0ecee327c676bc96fc2854df2d93fbf3fb580916.jpg",
+        "https://lc.zoocdn.com/2127f2bca64d71c256e43fadbcac61b673a4aedb.jpg",
+        "https://lc.zoocdn.com/81ca8e6321f8ba1878f460198a527db3b06257c1.jpg",
+        "https://lc.zoocdn.com/f4745eccbaa5cba69fa2a1de1fd3f7acab0f339d.jpg",
+        "https://lc.zoocdn.com/f5c655c1941dcd982e5a5080b9f6c506e4781cd2.jpg",
+        "https://lc.zoocdn.com/d999b67f7220f66a166d1f778756b5cd4551b951.jpg",
+        "https://lc.zoocdn.com/336a42b4392c89a84ecb51d622a14bb1e2a99ae5.jpg"
+      ]
+    }
+

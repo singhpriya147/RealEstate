@@ -1,0 +1,18 @@
+.single-property{
+ background-color: rgb(255, 255, 255);
+ border-radius: 12px;
+ padding: 1rem;
+ margin: 1rem;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ max-width:300px;
+ height:auto;
+justify-content: center;
+}
+.image-div{
+ border-radius: 5px;
+ border: 2px solib red;
+
+
+}
