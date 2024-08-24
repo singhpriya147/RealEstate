@@ -1,5 +1,5 @@
 export const reducer=(state,action)=>{
-   console.log('Action Payload:', action.payload);
+  //  console.log('Action Payload:', action.payload);
     
  switch (action.type) {
   
