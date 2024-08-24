@@ -41,10 +41,11 @@ export const reducer=(state,action)=>{
      };
    case 'SET_USER_BOOKMARKS':
      return { ...state, userBookmarks: action.payload };
-    // case 'APPLY_FILTER':
-    // return {
-    //   {}
-    // }
+    case 'APPLY_FILTER':
+    return {
+      ...state,
+      data:action.payload
+    }
    default:
      return state;
  }

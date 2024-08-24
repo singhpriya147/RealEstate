@@ -18,15 +18,13 @@ const { state } = useContext(AppContext);
     return <div>Loading properties...</div>;
   }
   return (
-    <div className="property-listing">
-      
-
-        {data.map((property, index) => (
-          <SingleProp  property={property} key={index}/>
-
-        
-        ))}
-      
+    <div className='property-listing'>
+      {data.map((property, index) => (
+        <>
+          
+          <SingleProp property={property} key={index} />
+        </>
+      ))}
     </div>
   );
 }

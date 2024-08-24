@@ -14,31 +14,31 @@ import {auth,db} from '../../firebase/firebase'
 
 const SingleProp = ({property}) => {
 
-  
+  // console.log(property.images,"line17");
 
-  const removeHtmlTags = (str) => {
-    return str.replace(/<[^>]*>/g, '');
-  };
-  const fullShortDescription = removeHtmlTags(property.short_description)
+  // const removeHtmlTags = (str) => {
+  //   return str.replace(/<[^>]*>/g, '');
+  // };
+  // const fullShortDescription = removeHtmlTags(property.short_description)
  
 
 
 
-const getShorterDescription = (description, wordLimit) => {
-  const words = description.split(' ');
-  if (words.length <= wordLimit) {
-    return description;
-  }
-  return words.slice(0, wordLimit).join(' ') + '...';
-};
+// const getShorterDescription = (description, wordLimit) => {
+//   const words = description.split(' ');
+//   if (words.length <= wordLimit) {
+//     return description;
+//   }
+//   return words.slice(0, wordLimit).join(' ') + '...';
+// };
 
 
-const halfShortDescription = getShorterDescription(fullShortDescription,15);
+// const halfShortDescription = getShorterDescription(fullShortDescription,15);
 
-  const[isExpanded,setIsExpanded]=useState(false);
-  const toggleDescription=()=>{
-    setIsExpanded(!isExpanded);
-  }
+//   const[isExpanded,setIsExpanded]=useState(false);
+//   const toggleDescription=()=>{
+//     setIsExpanded(!isExpanded);
+//   }
 
 
 const { state ,dispatch } = useContext(AppContext);
@@ -56,12 +56,12 @@ const {cart } = state;
        const userDoc = await getDoc(doc(db, 'UserBookmarks', user.uid));
        if (userDoc.exists()) {
          const bookmarks = userDoc.data().bookmarks || [];
-         setIsBookmarked(bookmarks.includes(property.listing_id));
+         setIsBookmarked(bookmarks.includes(property.id));
        }
      }
    };
    checkIfBookmarked();
- }, [property.listing_id]);
+ }, [property.id]);
 
 
 
@@ -74,7 +74,7 @@ const {cart } = state;
           await setDoc(
             doc(db, 'UserBookmarks', user.uid),
             {
-              bookmarks: arrayRemove(property.listing_id),
+              bookmarks: arrayRemove(property.id),
             },
             { merge: true }
           );
@@ -84,7 +84,7 @@ const {cart } = state;
           await setDoc(
             doc(db, 'UserBookmarks', user.uid),
             {
-              bookmarks: arrayUnion(property.listing_id),
+              bookmarks: arrayUnion(property.id),
             },
             { merge: true }
           );
@@ -140,13 +140,13 @@ const RemoveFromCart = async () => {
 
 
 
-const id = property.listing_id;
+const id = property.id;
   return (
     <Link to={`/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
       <div className='single-property'>
         <div>
           <img
-            src={property.images[0].original}
+            src={property?.images[0]?.original || property.images[0]}
             height={250}
             width={250}
             className='image-div'
@@ -165,19 +165,8 @@ const id = property.listing_id;
             />
           </div>
 
-          
-
-          <p>
-            {' '}
-            {isExpanded ? fullShortDescription : halfShortDescription}
-            <span
-              onClick={toggleDescription}
-              style={{ color: 'blue', cursor: 'pointer' }}
-            >
-              {isExpanded ? 'Read less' : 'Read More'}
-            </span>
-          </p>
-          {cart.some((item) => item.listing_id === property.listing_id) ? (
+          <p>{property.description}</p>
+          {cart.some((item) => item.id === property.id) ? (
             <button onClick={RemoveFromCart}>Remove Now</button>
           ) : (
             <button onClick={AddToCart}>Book Now</button>
