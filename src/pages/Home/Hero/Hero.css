@@ -18,5 +18,5 @@ position: relative;
  position: absolute;
  top:-9rem;
  right: 0;
- 
+ /* z-index: -10; */
 }

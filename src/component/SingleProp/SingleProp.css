@@ -16,3 +16,8 @@ justify-content: center;
 
 
 }
+.bookmark{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}

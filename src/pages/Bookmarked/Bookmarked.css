@@ -1,0 +1,15 @@
+.bookmarked-items-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.bookmarked-items-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

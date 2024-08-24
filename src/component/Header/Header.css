@@ -19,3 +19,6 @@ justify-content: space-between;
         top:-10px;
         opacity:0.9;
 }
+.user-name{
+        background-color: rgb(215, 162, 82);
+}

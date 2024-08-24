@@ -2,11 +2,13 @@ import { useContext, useState,useEffect } from "react"
 import { AppContext } from "../../context"
 import SingleProp from "../../component/SingleProp/SingleProp"
 import './cart.css'
+import { useNavigate } from "react-router-dom"
 const Cart = () => {
 const{state:{cart}}=useContext(AppContext)
 const[total,setTotal]=useState(0);
 console.log(cart.length);
 
+const navigate=useNavigate();
 useEffect(() => {
    setTotal(
      cart.reduce(
@@ -16,6 +18,11 @@ useEffect(() => {
    );
 }, [cart]);
 
+
+
+const checkout=()=>{
+  navigate('/checkout')
+}
 console.log("total",total);
   return (
     <div className='cart'>
@@ -35,7 +42,7 @@ console.log("total",total);
         <span className='title'> Added {cart.length} items to cart</span>
 
         <span style={{ fontWeight: 700, fontSize: 20 }}>Total: ₹ {total}</span>
-        <button disabled={cart.length === 0}>Proceed to Checkout</button>
+        <button disabled={cart.length === 0} onClick={checkout}>Proceed to Checkout</button>
       </div>
     </div>
   );
