@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../../Context.jsx';
 import SingleProp from '../../component/SingleProp/SingleProp';
-import './cart.css';
+import './Cart.css';
 import { AiFillDelete } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';
 const Cart = () => {
