@@ -7,11 +7,11 @@ import { properties } from '../../data/data';
 const Filter = () => {
   //  const [selectedOption4, setSelectedOption4] = useState('');
 
-  const { state, dispatch } = useContext(AppContext);
+  const {  dispatch } = useContext(AppContext);
   const [bedrooms, setBedrooms] = useState('');
     const [bathrooms, setBathrooms] = useState('');
       const [type, setType] = useState('');
-  const { data } = state;
+  // const { data } = state;
 
   const handleBedroomFilter = (e) => {
     setBedrooms(`${e.target.value}`)
@@ -71,11 +71,14 @@ const Filter = () => {
   };
   return (
     <div className='filter-container'>
-      <h3>Filter</h3>
+
+      <h3 className='filter-title'>Filter</h3>
+     
       <Select
         value={bedrooms}
         onChange={handleBedroomFilter}
         placeholder='No. of Bedroom'
+        
       >
         <option value='0'>0</option>
         <option value='1'>1</option>

@@ -8,8 +8,20 @@
       padding: 1rem;
       width: 80%;
       border-radius: 20px;
-     margin: auto;
+     margin: 10px auto;
+width: 300px;
+margin-top: 3rem;
 
+
+      /* background-color: rgb(254, 254, 254); */
+background: linear-gradient(to right, #8cbddd, #e3d4bb);
+    
+      padding: 1rem;
+     /* margin-top:3rem; */
+      border-radius: 20px;
+     margin: 10px auto;
+     /* max-width: 50%; */
+     /* width: 300px; */
 }
 .regis-header{
  display: flex;

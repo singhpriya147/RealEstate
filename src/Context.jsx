@@ -1,7 +1,7 @@
 import { createContext,  useReducer } from 'react';
 // import Listing from './data/Listing.json';
 import { properties } from './data/data';
-import Property from './data/Property.json'
+// import Property from './data/Property.json'
 import { reducer } from './reducer';
 // import {auth} from './firebase/firebase'
 import { auth } from './firebase/firebase';
@@ -18,7 +18,7 @@ const Context = ({ children }) => {
   const initialState = {
     data: properties,
     cart: [],
-    selectedProperty: Property,
+    selectedProperty: null,
     // originalData: properties,
     filter: '',
     currentUser: null,

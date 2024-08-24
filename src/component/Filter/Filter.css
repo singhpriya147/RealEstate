@@ -5,4 +5,15 @@
  margin-bottom: 1rem;
  border-radius: 12px;
  display: flex;
+ align-items: center;
+ justify-content:space-evenly;
+ padding: 1rem;
+}
+.filters{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.filter-title{
+ margin:1rem
 }

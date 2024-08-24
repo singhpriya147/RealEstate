@@ -46,18 +46,21 @@ const Header = () => {
           <h2>SUCASA</h2>
         </div>
       </Link>
+      <div className='header-right'>
+        <Link to='/cart'>
+          <PiShoppingCartSimpleLight style={{ fontSize: 25 }} />
 
-      <Link to='/cart'>
-        <PiShoppingCartSimpleLight style={{ fontSize: 25 }} />
-       
-        <span className='cart-badge'>{cart.length}</span>
-      </Link>
+          <span className='cart-badge'>{cart.length}</span>
+        </Link>
 
-      <Link to='/bookmarks'>
-        <CiBookmark  style={{position:'relative', zIndex:99,fontSize:25}}/>
-      </Link>
-    
-      <div>{userName}</div>
+        <Link to='/bookmarks'>
+          <CiBookmark
+            style={{ position: 'relative', zIndex: 99, fontSize: 25 }}
+          />
+        </Link>
+
+        <div>{userName}</div>
+      </div>
     </header>
   );
 };

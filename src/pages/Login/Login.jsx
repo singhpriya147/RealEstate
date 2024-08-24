@@ -68,7 +68,7 @@ const Login = () => {
           <div className='footer-base'>
             {/* <GoogleIcon width='25' height='25' onClick={signInWithGoogle} /> */}
             <p>
-              Don't have an Account? <Link to='/registration'>Register</Link>
+              Don't have an Account? <Link to='/'>Register</Link>
             </p>
           </div>
         </div>

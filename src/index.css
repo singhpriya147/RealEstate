@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 :root {
    font-family: 'Roboto', sans-serif;
@@ -33,6 +31,16 @@ h1 {
   margin: 0;
 }
 
+a {
+  color: inherit; /* Inherit color from parent elements */
+  text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+  color: inherit; /* Maintain the same color on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -52,6 +60,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+input  {
+  height: 2.5rem;
+  border-radius: 5px;
+border:1px solid black;
+padding: 1rem;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

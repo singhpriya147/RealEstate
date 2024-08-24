@@ -24,12 +24,12 @@ const { userLoggedIn } = state;
       <Header />
       <Routes>
         <Route path='/' element={<Registration />} />
-        <Route path='/login' element={<Login />} />
+        {/* <Route path='/login' element={<Login />} /> */}
 
         <Route path='/home' element={<ProtectedRoute element={<Home />} />} />
         <Route
           path='/:id'
-          element={<ProtectedRoute element={<PropDetails />} />}
+          element={<ProtectedRoute element={<PropDetails/>} />}
         />
         {/* <Route path='/cart' element={<ProtectedRoute element={<Cart />} />} /> */}
         <Route path='/cart'  element={<Cart />}  />
