@@ -89,11 +89,13 @@ const Cart = () => {
         <div className='cart-item'>
           {cart.length > 0 ? (
             cart.map((property, index) => (
-              <div key={property.id}>
+                
+              <div key={property.id}  className='cart-item-container'>
                 <SingleProp property={property} key={index} />
-                <div>
+                <div className='control'>
                   <div className='quantity-control'>
-                    <button onClick={() => handleDecrease(property)}>-</button>
+                    
+                    <button  onClick={() => handleDecrease(property)}>-</button>
                     <span className='qyt'>{property.qty}</span>
                     <button onClick={() => handleIncrease(property)}>+</button>
                   </div>
@@ -108,6 +110,7 @@ const Cart = () => {
                     }
                   />
                 </div>
+
               </div>
             ))
           ) : (
@@ -118,7 +121,7 @@ const Cart = () => {
       <div className='total-card'>
         <span className='title'> Added {cart.length} items to cart</span>
 
-        <span style={{ fontWeight: 700, fontSize: 20 }}>Total:₹{total}</span>
+        <span style={{ fontWeight: 700, fontSize: 20 }}>Total:${total}</span>
         <button disabled={cart.length === 0} onClick={checkout}>
           Proceed to Checkout
         </button>

@@ -100,7 +100,7 @@ console.log("id",id)
           <Feature>
             Rent/Mo
             <FontAwesomeIcon icon={faCalendar} style={{ fontWeight: 200 }} />
-            ${selectedProperty.price}
+            {selectedProperty.price}
           </Feature>
         </div>
         <h2>Contact Agent</h2>

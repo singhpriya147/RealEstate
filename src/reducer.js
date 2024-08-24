@@ -8,6 +8,7 @@ export const reducer = (state, action) => {
         currentUser: action.payload,
       };
     case 'SET_USER_LOGGED_IN':
+      console.log("in reducer",action.payload);
       return {
         ...state,
         userLoggedIn: action.payload,
@@ -22,16 +23,7 @@ export const reducer = (state, action) => {
         ...state,
         isGoogleUser: action.payload,
       };
-    //  case 'FETCH_DATA':
-    //    return {
-    //      ...state,
-    //      data: action.payload,
-    //    };
-    //  case 'ADD_TO_CART':
-    //    return {
-    //      ...state,
-    //      cart: [...state.cart, { ...action.payload, qty: 1 }],
-    //    };
+  
 
     case 'ADD_TO_CART':
       // Check if the item is already in the cart

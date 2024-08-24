@@ -13,6 +13,7 @@ function Checkout() {
   // }
 const [total, setTotal] = useState(0);
 
+
   const [loading, setLoading] = useState(false);
   const{state}=useContext(AppContext)
   const{cart}=state
@@ -143,47 +144,7 @@ const [total, setTotal] = useState(0);
         });
         break;
 
-      case 'razorpay':
-        axios.post(`/api/validate-order`, data).then((res) => {
-          if (res.data.status === 200) {
-            setError([]);
-            var options = {
-              key: 'rzp_test_5AEIUNtEJxBPvS',
-              amount: 1 * 100,
-              name: 'Funda Reat Ecom',
-              description: 'Thank you for purchasing with Funda',
-              image: 'https://example.com/your_logo',
-              handler: function (response) {
-                data.payment_id = response.razorpay_payment_id;
-
-                axios.post(`/api/place-order`, data).then((place_res) => {
-                  if (place_res.data.status === 200) {
-                    // swal(
-                    //   'Order Placed Successfully',
-                    //   place_res.data.message,
-                    //   'success'
-                    // );
-                    // history.push('/thank-you');
-                  }
-                });
-              },
-              prefill: {
-                name: data.firstname + data.lastname,
-                email: data.email,
-                contact: data.phone,
-              },
-              theme: {
-                color: '#3399cc',
-              },
-            };
-            var rzp = new window.Razorpay(options);
-            rzp.open();
-          } else if (res.data.status === 422) {
-            // swal('All fields are mandetory', '', 'error');
-            setError(res.data.errors);
-          }
-        });
-        break;
+      
 
       case 'payonline':
         axios.post(`/api/validate-order`, data).then((res) => {
@@ -334,13 +295,7 @@ const [total, setTotal] = useState(0);
                       >
                         Place Order
                       </button>
-                      <button
-                        type='button'
-                        className='btn btn-primary mx-1'
-                        onClick={(e) => submitOrder(e, 'razorpay')}
-                      >
-                        Pay by Razorpay
-                      </button>
+                    
                       <button
                         type='button'
                         className='btn btn-warning mx-1'
@@ -437,7 +392,7 @@ const [total, setTotal] = useState(0);
 
       <div className='py-3 bg-warning'>
         <div className='container'>
-          <h6>Home / Checkout</h6>
+          <h6>Checkout</h6>
         </div>
       </div>
 

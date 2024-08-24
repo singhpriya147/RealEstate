@@ -1,11 +1,11 @@
 import './Login.css';
 // import GoogleIcon from '../assets/icons/icons8-google.svg?react';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { doSignInWithEmailAndPassword } from '../../firebase/auth';
 import { doSignInWithGoogle } from '../../firebase/auth';
-
+import { auth } from '../../firebase/firebase';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
@@ -13,12 +13,22 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  
+  useEffect(()=>{
+            if(localStorage.getItem('accessToken')){
+
+            }
+  },[])
+
+
   const onSubmit = async (e) => {
     e.preventDefault();
 
     try {
       await doSignInWithEmailAndPassword(email, password);
       console.log('user logged in ');
+      console.log("auth",auth);
+      localStorage.setItem("accessToken", auth.currentUser.accessToken);
       navigate('/home');
     } catch (error) {
       console.log(error.message);

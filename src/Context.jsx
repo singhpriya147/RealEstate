@@ -33,6 +33,7 @@ const Context = ({ children }) => {
 
   useEffect(() => {
     const unsubscribe =  onAuthStateChanged(auth, async(user) => {
+      console.log(user)
       if (user) {
 
         dispatch({ type: 'SET_CURRENT_USER', payload: user });
@@ -49,6 +50,7 @@ const Context = ({ children }) => {
 
         dispatch({ type: 'SET_GOOGLE_USER', payload: isGoogleUser });
 
+        console.log('here we are ',user)
         dispatch({ type: 'SET_USER_LOGGED_IN', payload: true });
 
       
@@ -68,25 +70,19 @@ const Context = ({ children }) => {
            } catch (error) {
              console.error('Error fetching bookmarks: ', error);
            }
-
-
-
-
-
-
-
-
-      } else {
-        dispatch({ type: 'SET_CURRENT_USER', payload: null });
-        dispatch({ type: 'SET_USER_LOGGED_IN', payload: false });
-          dispatch({ type: 'SET_USER_BOOKMARKS', payload: [] });
       }
     });
 
     return () => unsubscribe();
   }, []);
 
+  useEffect(() => {
+    console.log(auth  , 'auth in context')
+    if (localStorage.getItem('accessToken')) {
 
+      dispatch({ type: 'SET_USER_LOGGED_IN', payload: true });
+    }
+  }, []);
 
   
 

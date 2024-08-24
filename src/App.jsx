@@ -19,12 +19,16 @@ function App() {
 const { state } = useContext(AppContext);
 
 const { userLoggedIn } = state;
+
+
+
+console.log('userLoggedIn in app', userLoggedIn);
   return (
     <>
       <Header />
       <Routes>
         <Route path='/' element={<Registration />} />
-        {/* <Route path='/login' element={<Login />} /> */}
+        <Route path='/login' element={<Login />} />
 
         <Route path='/home' element={<ProtectedRoute element={<Home />} />} />
         <Route

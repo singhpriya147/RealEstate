@@ -11,16 +11,27 @@ import { getDoc } from 'firebase/firestore';
 
 import { auth } from '../../firebase/firebase';
 import { CiBookmark } from 'react-icons/ci';
+import { getAuth } from 'firebase/auth';
 const Header = () => {
   const { state } = useContext(AppContext);
   const { cart } = state;
   const[userName,setUserName]=useState('user');
-  // const{currentUser}=state;
+  const{currentUser}=state;
   // const user = auth.currentUser;
 
+
+
+
+
    useEffect(() => {
+
      const fetchUserName = async () => {
-       const user = auth.currentUser;
+      //  const user = auth.currentUser;
+        const auth =   getAuth();
+        const user = auth.currentUser;
+
+
+       console.log("user in header",currentUser ,auth);
        if (user) {
          try {
            const userDoc = await getDoc(doc(db, 'Users', user.uid));

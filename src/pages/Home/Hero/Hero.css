@@ -20,3 +20,13 @@ position: relative;
  right: 0;
  /* z-index: -10; */
 }
+/* @media (max-width:720) {
+ .hero-image{
+  display: none;
+ }
+} */
+@media  (max-width: 600px) {
+.hero-image{
+  display: none;
+ }
+}

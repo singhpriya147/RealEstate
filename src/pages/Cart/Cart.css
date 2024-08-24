@@ -15,6 +15,8 @@ flex-direction: row;
  flex-wrap: wrap;
 background-color: rgba(232, 232, 232, 0.665);
 border-radius: 12px;
+/* grid:1rem; */
+
 }
 .total-card{
   background-color: rgba(232, 232, 232, 0.665);
@@ -27,4 +29,21 @@ border-radius: 12px;
  margin-left:1rem;
  padding: 2rem;
  border-radius: 12px;
+}
+.cart-item-container{
+  max-width: 400px;
+  background-color: rgb(177, 180, 180);
+/* gap:2rem;
+display:flex; */
+margin:2rem
+}
+.control{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:1rem
+}
+.inc-btn{
+  width: 12px;
+  height: 12px;
 }
