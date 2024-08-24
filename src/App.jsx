@@ -8,7 +8,7 @@ import PropDetails from './pages/PropDetails/PropDetails';
 import Cart from './pages/Cart/Cart';
 import Login from './pages/Login/Login';
 import Registration from './pages/Registration/Registration';
-import { AppContext } from './context';
+import { AppContext } from './Context.jsx';
 import { useContext } from 'react';
 import { Navigate } from 'react-router-dom';
 import BookmarkedItemsList from './pages/Bookmarked/Bookmarked';

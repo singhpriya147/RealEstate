@@ -1,5 +1,5 @@
 import { Navigate } from 'react-router-dom';
-import { AppContext } from './context';
+import { AppContext } from './Context.jsx';
 import { useContext } from 'react';
 import { getAuth } from 'firebase/auth';
 

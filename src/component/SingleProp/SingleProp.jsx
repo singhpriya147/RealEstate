@@ -1,7 +1,7 @@
 
 import { useState ,useEffect} from 'react';
 import './SingleProp.css'
-import { AppContext } from '../../context';
+import { AppContext } from '../../Context.jsx';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { CiBookmark } from 'react-icons/ci';

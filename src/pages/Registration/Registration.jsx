@@ -3,7 +3,7 @@ import './Registration.css';
 import { setDoc } from 'firebase/firestore';
 
 import { doc } from 'firebase/firestore';
-import { AppContext} from '../../context';
+import { AppContext} from '../../Context.jsx';
 import{db} from '../../firebase/firebase.js'
 import { doCreateUserWithEmailAndPassword } from '../../firebase/auth.js';
 import { auth } from '../../firebase/firebase.js';

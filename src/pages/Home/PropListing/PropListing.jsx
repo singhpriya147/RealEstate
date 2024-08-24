@@ -3,7 +3,7 @@
 import { useContext } from 'react';
 import SingleProp from '../../../component/SingleProp/SingleProp';
 import './PropListing.css'
-import {AppContext} from '../../../context';
+import {AppContext} from '../../../Context.jsx';
 import { useNavigate } from 'react-router-dom';
 
 const PropListing = () => {

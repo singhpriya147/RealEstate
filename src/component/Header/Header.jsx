@@ -1,6 +1,6 @@
 import { PiShoppingCartSimpleLight } from 'react-icons/pi';
 import './Header.css';
-import { AppContext } from '../../context';
+import { AppContext } from '../../Context.jsx';
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';

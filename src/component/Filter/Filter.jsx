@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import './Filter.css';
 // import { useState } from 'react';
 import { Select } from '@chakra-ui/react';
-import { AppContext } from '../../context';
+import { AppContext } from '../../Context.jsx';
 import { properties } from '../../data/data';
 const Filter = () => {
   //  const [selectedOption4, setSelectedOption4] = useState('');

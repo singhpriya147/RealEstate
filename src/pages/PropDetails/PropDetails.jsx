@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom"
-import { AppContext } from "../../context";
+import { AppContext } from "../../Context.jsx";
 import Listing from '../../data/Listing.json';
 import './PropDetail.css'
 import Badge from "../../component/Badge/Badge";

@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from 'react';
-import { AppContext } from '../../context';
+import { AppContext } from '../../Context.jsx';
 import SingleProp from '../../component/SingleProp/SingleProp';
 import './cart.css';
 import { AiFillDelete } from 'react-icons/ai';

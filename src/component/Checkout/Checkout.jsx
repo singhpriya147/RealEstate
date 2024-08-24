@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import { AppContext } from '../../context';
+import { AppContext } from '../../Context.jsx';
 // import swal from 'sweetalert';
 // import { useHistory } from 'react-router-dom';
 import './Checkout.css'
