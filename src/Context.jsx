@@ -6,20 +6,16 @@ import { reducer } from './reducer';
 const AppContext = createContext();
 
 const Context = ({ children }) => {
-  // console.log('Property:', Property);
+
   const [state, dispatch] = useReducer(reducer, {
     data: Listing.listing,
     cart: [],
     selectedProperty: Property,
+    originalData:Listing.listing,
+    filter:''
   });
 
-  // useEffect(() => {
-  //   // Initialize data in the state
-  //   dispatch({ type: 'FETCH_DATA', payload: Listing.listing });
-  // }, []);
-
-  // console.log(state.data); 
-  // console.log(state.selectedProperty); 
+  
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>

@@ -51,6 +51,7 @@ const id = property.listing_id;
     <Link to={`/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
       <div className='single-property'>
         <div>
+        
           <img
             src={property.images[0].original}
             height={250}
@@ -78,7 +79,6 @@ const id = property.listing_id;
         </div>
       </div>
     </Link>
-    
   );
 }
 

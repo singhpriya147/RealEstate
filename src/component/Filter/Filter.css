@@ -1,0 +1,8 @@
+.filter-container{
+ height: 60px;
+ background-color: rgba(232, 232, 232, 0.665);;
+ margin-top:4rem;
+ margin-bottom: 1rem;
+ border-radius: 12px;
+ display: flex;
+}

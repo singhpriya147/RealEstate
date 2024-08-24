@@ -1,5 +1,8 @@
 export const reducer=(state,action)=>{
+   console.log('Action Payload:', action.payload);
+    
  switch (action.type) {
+  
    case 'FETCH_DATA':
      return {
        ...state,
@@ -13,15 +16,12 @@ export const reducer=(state,action)=>{
    case 'REMOVE_FROM_CART':
      return {
        ...state,
-       cart:state.cart.filter((c)=>c.id!=action.payload.id),
-       
+       cart: state.cart.filter(
+         (c) => c.listing_id != action.payload.listing_id
+       ),
      };
-   //  case 'FETCH_SINGLE_PROPERTY':
-   // return {
-   //   ...state,
-   //   selectedProperty:
-   //     state.data.find((item) => item.id === action.payload) || null, // Ensure fallback to null if not found
-   // };
+
+   
    default:
      return state;
  }
