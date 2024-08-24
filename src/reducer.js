@@ -57,7 +57,7 @@ export const reducer=(state,action)=>{
      return {
        ...state,
        cart: state.cart.filter(
-         (c) => c.listing_id != action.payload.listing_id
+         (c) => c.id != action.payload.id
        ),
      };
 
