@@ -1,6 +1,7 @@
 export const reducer=(state,action)=>{
   
-    
+    const existingItem = state.cart.find((c) => c.id === action.payload.id);
+
  switch (action.type) {
    case 'SET_CURRENT_USER':
      return {
@@ -27,11 +28,31 @@ export const reducer=(state,action)=>{
        ...state,
        data: action.payload,
      };
+   //  case 'ADD_TO_CART':
+   //    return {
+   //      ...state,
+   //      cart: [...state.cart, { ...action.payload, qty: 1 }],
+   //    };
+
    case 'ADD_TO_CART':
-     return {
-       ...state,
-       cart: [...state.cart, { ...action.payload, qty: 1 }],
-     };
+     // Check if the item is already in the cart
+     
+     if (existingItem) {
+       // If the item is already in the cart, increase the quantity
+       return {
+         ...state,
+         cart: state.cart.map((c) =>
+           c.id === action.payload.id ? { ...c, qty: c.qty + 1 } : c
+         ),
+       };
+     } else {
+       // If the item is not in the cart, add it with qty initialized to 1
+       return {
+         ...state,
+         cart: [...state.cart, { ...action.payload, qty: 1 }],
+       };
+     }
+
    case 'REMOVE_FROM_CART':
      return {
        ...state,
@@ -39,13 +60,29 @@ export const reducer=(state,action)=>{
          (c) => c.listing_id != action.payload.listing_id
        ),
      };
+
+   case 'CHANGE_CART_QTY':
+     return {
+       ...state,
+       cart: state.cart.filter((c) =>
+         c.id === action.payload.id ? (c.qty = action.payload.qty) : c.qty
+       ),
+     };
+
+   //  case 'CHANGE_CART_QTY':
+   //    return {
+   //      ...state,
+   //      cart: state.cart.map((c) =>
+   //        c.id === action.payload.id ? { ...c, qty: action.payload.qty } : c
+   //      ),
+   //    };
    case 'SET_USER_BOOKMARKS':
      return { ...state, userBookmarks: action.payload };
-    case 'APPLY_FILTER':
-    return {
-      ...state,
-      data:action.payload
-    }
+   case 'APPLY_FILTER':
+     return {
+       ...state,
+       data: action.payload,
+     };
    default:
      return state;
  }

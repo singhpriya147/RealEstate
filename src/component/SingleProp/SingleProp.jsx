@@ -155,7 +155,7 @@ const id = property.id;
 
           <h2>{property.title}</h2>
           <div className='bookmark'>
-            <b>${property.price}</b>
+            <b>{property.price}</b>
             <CiBookmark
               onClick={toggleBookmark}
               style={{
