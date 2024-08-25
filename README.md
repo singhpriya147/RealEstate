@@ -68,7 +68,7 @@ This is property listing web app.
   -  It's checkout process that calculates the total cost of booked properties.
   -  Allow users to enter booking details, including contact information and payment details
  
-## Screenshots and Link to video 
+## Screenshots  
 **Registratio Page**
 
 ![Screenshot (975)](https://github.com/user-attachments/assets/fd2d76f4-661f-42c9-832a-3a4e5eedbca3)
