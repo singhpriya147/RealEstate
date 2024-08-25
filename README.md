@@ -1,5 +1,5 @@
 # Frontend Assignment 
-This web app is assignment for frontend developer Intern role at Totality Corp. Please Get access at [here](https://gmtassignment-b2b47.web.app/)
+This web app is assignment for frontend developer Intern role at Totality Corp. Please Get access at [here](https://roaring-moxie-79dbf1.netlify.app/)
 
 ## Table of Contents
 
@@ -70,21 +70,34 @@ This is property listing web app.
  
 ## Screenshots and Link to video 
 **Registratio Page**
+
 ![Screenshot (975)](https://github.com/user-attachments/assets/fd2d76f4-661f-42c9-832a-3a4e5eedbca3)
 ![Screenshot (976)](https://github.com/user-attachments/assets/3fc54364-7c2c-4665-9a35-6e616ec7d9df)
+
 **Login page**
+
 ![Screenshot (977)](https://github.com/user-attachments/assets/e75e4cb2-93fd-4eb7-9378-af24ebc021e7)
+
 **Property lisitng page**
+
 ![Screenshot (978)](https://github.com/user-attachments/assets/8ed50496-ee23-4939-9513-30f305bf0f6d)
 ![Screenshot (979)](https://github.com/user-attachments/assets/15583337-5b48-495a-8a5b-fe83477d12e3)
+
 **Property details**
+
 ![Screenshot (980)](https://github.com/user-attachments/assets/3d0e63d4-0e83-400b-931e-f5eba2c77d0c)
+
 **Cart page**
+
 ![Screenshot (981)](https://github.com/user-attachments/assets/87e38378-df2e-4d7a-ac03-3acf3851b9c5)
+
 **Checkout Page**
+
 ![Screenshot (982)](https://github.com/user-attachments/assets/fd1a451e-dc56-41a0-bcf1-182bc5d78214)
 
-These are the instructions on how to run the asssignment_GMT on your local machine.
+## Running the Project
+
+These are the instructions on how to run the totality frontend challenge on your local machine.
 
 ### Prerequisites
 
@@ -97,7 +110,7 @@ Ensure you have the following prerequisites installed on your machine:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/singhpriya147/assignment_GMT.git
+   https://github.com/singhpriya147/totality-frontend-challenge.git
  
     ```
 
