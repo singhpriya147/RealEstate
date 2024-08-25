@@ -156,5 +156,6 @@ gap: 1px;
  }
  .propDetails{
    flex-direction: column;
+   gap:2rem
  }
 }
