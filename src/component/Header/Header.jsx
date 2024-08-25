@@ -59,7 +59,9 @@ const Header = () => {
       </Link>
       <div className='header-right'>
         <Link to='/cart'>
-          <PiShoppingCartSimpleLight style={{ fontSize: 25 }} />
+          <PiShoppingCartSimpleLight
+            style={{ position: 'relative', fontSize: 25, zIndex: 99 }}
+          />
 
           <span className='cart-badge'>{cart.length}</span>
         </Link>
