@@ -69,39 +69,21 @@ This is property listing web app.
   -  Allow users to enter booking details, including contact information and payment details
  
 ## Screenshots and Link to video 
-1- **Onboard Page**
+**Registratio Page**
+![Screenshot (975)](https://github.com/user-attachments/assets/fd2d76f4-661f-42c9-832a-3a4e5eedbca3)
+![Screenshot (976)](https://github.com/user-attachments/assets/3fc54364-7c2c-4665-9a35-6e616ec7d9df)
+**Login page**
+![Screenshot (977)](https://github.com/user-attachments/assets/e75e4cb2-93fd-4eb7-9378-af24ebc021e7)
+**Property lisitng page**
+![Screenshot (978)](https://github.com/user-attachments/assets/8ed50496-ee23-4939-9513-30f305bf0f6d)
+![Screenshot (979)](https://github.com/user-attachments/assets/15583337-5b48-495a-8a5b-fe83477d12e3)
+**Property details**
+![Screenshot (980)](https://github.com/user-attachments/assets/3d0e63d4-0e83-400b-931e-f5eba2c77d0c)
+**Cart page**
+![Screenshot (981)](https://github.com/user-attachments/assets/87e38378-df2e-4d7a-ac03-3acf3851b9c5)
+**Checkout Page**
+![Screenshot (982)](https://github.com/user-attachments/assets/fd1a451e-dc56-41a0-bcf1-182bc5d78214)
 
-![Screenshot (958)](https://github.com/user-attachments/assets/8089828b-0ca1-4297-adc4-e7f1f9ebdcd2)
-
-![Screenshot (959)](https://github.com/user-attachments/assets/6b59ab7f-d2d4-427f-876c-b2b3aa650a47)
-
-![Screenshot (960)](https://github.com/user-attachments/assets/bf073726-c0bb-4a77-a745-39cf76cd5d6d)
-
-2- **Registration Page**
-
-![Screenshot (967)](https://github.com/user-attachments/assets/564ba0c6-87f2-428c-a2ec-7eea85f62598)
-
-3- **Login Page**
-
-
-![Screenshot (961)](https://github.com/user-attachments/assets/cf0b905c-38fc-4bb4-bf40-ef2533cbc296)
-
-![Screenshot (962)](https://github.com/user-attachments/assets/e4191a74-2a32-401d-9415-0bdde03a309a)
-
-
-4- **Post login page**
-
-![Screenshot (963)](https://github.com/user-attachments/assets/24e34285-ab7f-4b99-8cb4-7b68b4801849)
-
-5- **Tracking page**
-
-![Screenshot (964)](https://github.com/user-attachments/assets/9b494816-7940-40b4-8ee5-0fad2ff7d261)
-
-![Screenshot (965)](https://github.com/user-attachments/assets/c06af6c6-8e4e-426c-9b88-2dea1c6b749c)
-
-![Screenshot (966)](https://github.com/user-attachments/assets/8c3d0d6b-96f9-4288-a8a0-aa1e34a06eb7)
-
-## Running the Project
 These are the instructions on how to run the asssignment_GMT on your local machine.
 
 ### Prerequisites
