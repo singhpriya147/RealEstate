@@ -5,17 +5,18 @@
 }
 
 .left-side{
- width:68%;
+ max-width:68%;
 /* background-color: rgba(214, 63, 63, 0.665); */
- height: 40%;
+ height: 100%;
  /* padding: 1rem;
  border-radius: 12px; */
 }
 .right-side{
  width: 30%;
- /* background-color: blueviolet; */
+ height: 700px;
  background-color: rgba(232, 232, 232, 0.665);
  /* height: 40%; */
+ /* background-color: cadetblue; */
  gap: 1rem;
  margin:0 auto;
  border-radius:12px;
@@ -24,49 +25,90 @@
  gap:1.5rem;
  align-items: center;
  justify-content: center;
+
+}
+.right-side-info{
+/* background-color: blueviolet; */
+height: 50%;
+width: 100%;
+
+}
+.right-side-agent{
+/* background-color: rgb(186, 133, 235); */
+height: 50%;
+width: 100%;
 }
 .image-wrapper{
  /* min-width:100%; */
 background-color: rgba(232, 232, 232, 0.665);
+/* background-color: aquamarine; */
  display: flex;
  flex-direction: row;
  gap: 1rem;
- height: 40%;
+ /* height: 40%; */
  padding: 1rem;
  border-radius: 12px;
+max-width: 100%;
 }
 .image-contianer-left img{
  object-fit: cover;
  border-radius: 10px;
+  max-width: 100%;
+    height: auto; 
 }
 .image-contianer-left{
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
+ max-width: 60%;
+  /* background-color: blueviolet; */
 }
 .image-contianer-right{
- /* background-color: blueviolet; */
- width:500px ;
- height: 300px;
+
+ max-width:100% ;
+ height:300px;
+width: 100%;
  display: flex;
  flex-wrap: wrap;
- flex-direction: row;
+ flex-direction: column;
  /* gap: 0.5rem; */
  justify-content: center;
-
+ /* background-color: brown; */
+flex-direction: column;
  
  
 }
-.image-contianer-right img{
- width:170px;
+
+.image-contianer-right {
+ /* width:170px;
  height: 150px;
  border-radius: 10px;
- padding: 5px;
+ padding: 5px; */
+ display: flex;
+ gap: 2rem 2rem;
+ /* flex-direction: row; */
+}
+ .single-image-contianer-right{
+  
+ max-width: 45%;
+
+  /* background-color: rgb(111, 125, 0); */
+  /* height: 50%; */
+  /* width: 50%; */
+  display: flex;
+  /* justify-content: center; */
+ }
+.single-image-contianer-right img{
+ max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 .image-wrapper{
  display: flex;
  flex-direction: row;
  /* flex-wrap: wrap; */
+ /* max-width: 100%; */
 }
 .ameneties-badge{
  height: 80px;
@@ -80,6 +122,8 @@ gap: 1px;
 .feature{
  display: flex;
  gap:0.5rem;
+ flex-wrap: wrap;
+ 
 }
 .agent-detail{
  background-color: rgb(255, 255, 255);
@@ -90,4 +134,27 @@ gap: 1px;
 }
 .agent-adress{
  line-height: 5px;
+}
+@media (max-width:1000px) {
+ .image-wrapper{
+  flex-direction: column ;
+ }
+ .image-contianer-left{
+   max-width: 100%;
+ }
+ .image-contianer-right{
+  height: 500px;
+ }
+ 
+}
+@media (max-width:620px) {
+ .left-side{
+  max-width:100% ;
+ }
+ .right-side{
+  width: 100%;
+ }
+ .propDetails{
+   flex-direction: column;
+ }
 }
