@@ -11,7 +11,7 @@ import { faBed } from '@fortawesome/free-solid-svg-icons'; //
 import { faShower } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faCalendar } from '@fortawesome/free-solid-svg-icons';
-
+import CartButton from "../../component/CartButton/CartButton.jsx";
 const PropDetails = () => {
   const{id}=useParams();
  const{state,dispatch}=useContext(AppContext);
@@ -134,7 +134,7 @@ console.log("id",id)
               </div>
             </div>
             <div>
-              <button>Book Now</button>
+              <CartButton property={selectedProperty} />
             </div>
           </div>
         </section>

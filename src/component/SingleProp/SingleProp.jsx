@@ -7,38 +7,12 @@ import { Link } from 'react-router-dom';
 import { CiBookmark } from 'react-icons/ci';
 import { doc,setDoc,getDoc,arrayUnion,arrayRemove } from 'firebase/firestore';
 import {auth,db} from '../../firebase/firebase'
-
+import CartButton from '../CartButton/CartButton.jsx';
 
 
 
 
 const SingleProp = ({property}) => {
-
-  // console.log(property.images,"line17");
-
-  // const removeHtmlTags = (str) => {
-  //   return str.replace(/<[^>]*>/g, '');
-  // };
-  // const fullShortDescription = removeHtmlTags(property.short_description)
- 
-
-
-
-// const getShorterDescription = (description, wordLimit) => {
-//   const words = description.split(' ');
-//   if (words.length <= wordLimit) {
-//     return description;
-//   }
-//   return words.slice(0, wordLimit).join(' ') + '...';
-// };
-
-
-// const halfShortDescription = getShorterDescription(fullShortDescription,15);
-
-//   const[isExpanded,setIsExpanded]=useState(false);
-//   const toggleDescription=()=>{
-//     setIsExpanded(!isExpanded);
-//   }
 
 
 const { state ,dispatch } = useContext(AppContext);
@@ -100,43 +74,9 @@ const {cart } = state;
 
 
 
-const AddToCart=async()=>{
-  dispatch({type:'ADD_TO_CART', payload:property})
-
-
-  // const user = auth.currentUser;
-  // if (user) {
-  //   try {
-  //     await setDoc(doc(db, 'UserBookmarks', user.uid), {
-  //       bookmarks: arrayUnion(property.listing_id)
-  //     }, { merge: true });
-  //     console.log('Bookmark added');
-  //   } catch (error) {
-  //     console.error('Error adding bookmark: ', error);
-  //   }
-  // }
-
-
-}
-
-const RemoveFromCart = async () => {
-  dispatch({ type: 'REMOVE_FROM_CART', payload: property });
-
-// const user = auth.currentUser;
-//   if (user) {
-//     try {
-//       await setDoc(doc(db, 'UserBookmarks', user.uid), {
-//         bookmarks: arrayRemove(property.listing_id)
-//       }, { merge: true });
-//       console.log('Bookmark removed');
-//     } catch (error) {
-//       console.error('Error removing bookmark: ', error);
-//     }
-//   }
 
 
 
-};
 
 
 
@@ -166,11 +106,12 @@ const id = property.id;
           </div>
 
           <p>{property.description}</p>
-          {cart.some((item) => item.id === property.id) ? (
+          {/* {cart.some((item) => item.id === property.id) ? (
             <button onClick={RemoveFromCart}>Remove Now</button>
           ) : (
             <button onClick={AddToCart}>Book Now</button>
-          )}
+          )} */}
+          <CartButton property={property}/>
         </div>
       </div>
     </Link>
